@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="baowu:war exploded">
+    <output-path>$PROJECT_DIR$/target/baowu</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="baowu" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.perf4j:perf4j:0.9.16" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.0" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.29" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/baowu/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="baowu/web/Web" />
+    </root>
+  </artifact>
+</component>
